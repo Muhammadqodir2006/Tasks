@@ -1,3 +1,3 @@
 Tasks app
-![1_25](https://github.com/user-attachments/assets/fea4f974-a743-464b-8a8d-90af1eafec70)
 
+![1_40](https://github.com/user-attachments/assets/c81f50e4-d04b-41f9-b185-e9e05c8bf884)
