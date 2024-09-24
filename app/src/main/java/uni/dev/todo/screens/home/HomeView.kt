@@ -181,7 +181,7 @@ fun TaskLazyColumn(vm: HomeViewModel) {
     LazyColumn(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 6.dp)
+            .padding(horizontal = 6.dp), contentPadding = PaddingValues(bottom = 64.dp)
     ) {
         items(tasks.size) {
             val task = tasks[it]

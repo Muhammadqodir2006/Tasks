@@ -27,6 +27,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.livedata.observeAsState
@@ -65,7 +66,7 @@ fun AddUpdateView(vm: AddUpdateViewModel) {
         focusRequester.requestFocus()
     }
     Scaffold(topBar = {
-        TopAppBar(title = { }, navigationIcon = {
+        TopAppBar(title = { }, colors = TopAppBarDefaults.topAppBarColors(containerColor = Primary), navigationIcon = {
             BackIconButton {
                 vm.onBack()
             }
@@ -91,6 +92,7 @@ fun AddUpdateView(vm: AddUpdateViewModel) {
                 .padding(top = paddingValues.calculateTopPadding(), start = 12.dp, end = 12.dp)
                 .fillMaxWidth()
         ) {
+            Spacer(Modifier.height(16.dp))
             OutlinedTextField(
                 value = name,
                 onValueChange = { vm.updateName(it) },
