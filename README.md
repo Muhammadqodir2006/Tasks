@@ -47,7 +47,7 @@ Welcome to **Tasks**, the task manager that keeps life simple! Whether you're ju
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/tasks.git
+git clone https://github.com/Muhammadqodir2006/tasks.git
 ```
 
 Open the project in **Android Studio**, build it, and run the app on your device or emulator.
@@ -56,9 +56,14 @@ Open the project in **Android Studio**, build it, and run the app on your device
 
 ## 📸 
 ![1_30](https://github.com/user-attachments/assets/3fb83aec-a2a2-4ca3-b5b7-5968d5180c54)
-
-
-> *Include some screenshots here to show off your app’s clean interface and smooth task management.*
+![2_30](https://github.com/user-attachments/assets/d5bd7d4a-40aa-47a5-8baf-0efda00213d1)
+![3_30](https://github.com/user-attachments/assets/433152f7-2107-409d-9e48-132a2fdee56b)
+![10_30](https://github.com/user-attachments/assets/42e1cc18-d69c-4a10-9739-2bf9689d154c)
+![8_30](https://github.com/user-attachments/assets/f67b04ef-f7f9-4b3f-8ccc-a05edcbd3e01)
+![7_30](https://github.com/user-attachments/assets/d41c04ca-0caf-4c36-9ad6-d7dae8f64cb6)
+![6_30](https://github.com/user-attachments/assets/8d69f125-f143-48e4-b5c3-041dd81ba36a)
+![5_30](https://github.com/user-attachments/assets/a5b3b9bb-68fa-4164-b65c-6fcfc6b579b7)
+![4_30](https://github.com/user-attachments/assets/c3d86eb0-db5e-431c-8f06-eaaf96bcdbb6)
 
 ---
 
@@ -75,8 +80,4 @@ Say goodbye to cluttered task lists and unorganized to-dos. Download **Tasks** t
 
 ---
 
-**Made with ❤️ by Muhammadqodir**
-
----
-
-Let me know if you want to make any adjustments!
+**Built to simplify your life by by Muhammadqodir**
