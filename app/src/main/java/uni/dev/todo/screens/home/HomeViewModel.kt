@@ -2,7 +2,6 @@ package uni.dev.todo.screens.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavHostController
 import uni.dev.todo.databaseLocal.Task
 
@@ -63,19 +62,19 @@ class HomeViewModel(private val navController: NavHostController, private val mo
             0 -> {
                 val newList = mutableListOf<Task>()
                 newList.addAll(tasks.filter { it.urgent && it.important })
-                newList.addAll(tasks.filter { it.urgent && !it.important})
-                newList.addAll(tasks.filter { it.important && !it.urgent})
+                newList.addAll(tasks.filter { it.important && !it.urgent })
+                newList.addAll(tasks.filter { it.urgent && !it.important })
                 newList.addAll(tasks.filter { !it.urgent && !it.important })
 
                 return newList
             }
 
             1 -> {
-                return tasks.filter { it.urgent }
+                return tasks.sortedBy { !it.important }.filter { it.urgent }
             }
 
             2 -> {
-                return tasks.filter { it.important }
+                return tasks.sortedBy { !it.urgent }.filter { it.important }
             }
         }
         return emptyList()
