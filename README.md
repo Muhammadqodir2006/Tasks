@@ -76,7 +76,7 @@ Open the project in **Android Studio**, build it, and run the app on your device
 
 ## 📬 Feedback and Contributions
 
-Got a feature idea or spotted a bug? Feel free to [open an issue](https://github.com/Muhammadqodir2006/tasks/issues) or submit a pull request. Contributions are always welcome!
+Got a feature idea or spotted a bug? Feel free to [open an issue](https://github.com/MuhammadqodirRustamov/tasks/issues) or submit a pull request. Contributions are always welcome!
 
 ---
 
