@@ -41,6 +41,11 @@ Welcome to **Tasks**, the task manager that keeps life simple! Whether you're ju
 5. **Complete & Repeat**: Check off your tasks as you complete them and move on to the next!
 
 ---
+## Libraries used:
+  1. Jetpack Compose
+  2. Room
+  3. Livedata
+
 
 ## 🛠️ Installation
 
@@ -66,6 +71,7 @@ Open the project in **Android Studio**, build it, and run the app on your device
 ![4_30](https://github.com/user-attachments/assets/c3d86eb0-db5e-431c-8f06-eaaf96bcdbb6)
 
 ---
+
 
 
 ## 📬 Feedback and Contributions
